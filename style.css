@@ -1,0 +1,72 @@
+nav{
+    background: white!important;
+    border: none!important;
+}
+*{
+    font-family: 'Orbitron';
+}
+a{
+    color: black!important;
+    font-size: 15px;
+}
+a:hover,a:active{
+    color: black!important;
+    text-decoration: underline!important;
+    font-size: 18px;
+    font-weight: 700;
+}
+.search{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    /* width: 10%; */
+}
+.button-group{
+    display: inline-flex;
+    padding-top: 1%;
+}
+.square{
+    /* width: 26%; */
+    position: absolute;
+    z-index: -1;
+    top: 33%;
+    left: 19%;
+}
+.hero{
+
+    width: 27%;
+}
+.globe{
+    position: absolute;
+    left: 50%;
+}
+.star{
+    right: 11%;
+    top: 20%;
+    position: absolute;
+}
+.hero-container-right{
+    
+        width: 61%;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+
+}
+.hero-description{
+    text-align: center;
+    width: 69%;
+    margin-left: 15%;
+}
+.button-email{
+    background: white;
+    border-radius: 5px;
+    width: 17%;
+    text-align: center;
+
+}
+.button-join{
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
