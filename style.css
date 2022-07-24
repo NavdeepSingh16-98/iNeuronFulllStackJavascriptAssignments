@@ -1,0 +1,68 @@
+a{
+    color: #999547!important;
+    font-size: 24px!important;
+    text-decoration: none;
+
+}
+a:active, a:hover{
+    color: white!important;
+    font-weight: 700!important;
+}
+nav{
+    background-color: transparent!important;
+    border:none!important;
+}
+.button-small{
+    color: #afaf56;
+    background: #312929;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 6px;
+/* margin-left: 10%; */
+width: 200px;
+}
+body{
+    background: #312929!important;
+}
+h1{
+    color: white!important;
+    font-size: 110px!important;
+    font-weight: 700!important;
+}
+.hero2{
+    /* color: white!important;
+    font-size: 24px!important;
+    padding-top: 9%; */
+}
+.img2{
+    /* position: absolute;
+    bottom: 0%; */
+    width: 97%;
+    position: absolute;
+    bottom: 0%;
+}
+.container{
+    padding: 2%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.listDiv{
+    width: inherit;
+}
+.list-item{
+float: left;
+margin-left: 3%;
+}
+.row{
+    display: flex;
+    margin-top: 0%;
+}
+.hero2span{
+    color: white!important;
+    font-size: 41px!important;
+    padding-top: 17%;
+    width: 763px;}
