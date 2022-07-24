@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+.bottom{
+  width: fit-content;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+nav{
+  background: transparent!important;
+  border: none!important;
+}
+a{
+  color: yellow!important;
+}
+.button-small,.button-large{
+  background: #cd3e51;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 12px;
+    /* width: 90px; */
+}
+h1{
+  color: yellow!important;
+  font-size: 122px!important;
+    font-weight: 700!important;
+}
+.container{
+  padding:2%;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.list{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  font-size: 22px;
+}
+.list-item{
+  float: left;
+  margin-left: 3%;
+}
+.hero{
+  text-align: center;
+  margin-top: 7%;
+}
+.button-large{
+  margin-top: 5%;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
