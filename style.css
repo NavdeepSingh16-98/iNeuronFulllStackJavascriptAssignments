@@ -7,7 +7,8 @@ nav{
 }
 a{
     color: black!important;
-    font-size: 15px;
+    font-size: 22px;
+    text-decoration: none!important;
 }
 a:hover,a:active{
     color: black!important;
@@ -19,6 +20,7 @@ a:hover,a:active{
     text-align: center;
     border-radius: 5px;
     border: 2px solid black;
+    height: 23px;
     /* width: 10%; */
 }
 .button-group{
@@ -29,8 +31,10 @@ a:hover,a:active{
     /* width: 26%; */
     position: absolute;
     z-index: -1;
-    top: 33%;
-    left: 19%;
+    /* top: 33%; */
+    left: 13%;
+    bottom: 15%;
+
 }
 .hero{
 
@@ -63,10 +67,33 @@ a:hover,a:active{
     border-radius: 5px;
     width: 17%;
     text-align: center;
+    height: 30px;
 
 }
 .button-join{
     background: black;
     color: white;
     border-radius: 5px;
+    height: 30px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.container{
+    padding: 1%;
+    /* padding-bottom: 0; */
+}
+.list{
+    list-style-type: none;
+}
+.list-item{
+    float: left;
+    margin-left: 3%!important;
+}
+.brand-logo{
+    width: 128px;
+}
+.hero-heading{
+    font-size: 69px;
 }
