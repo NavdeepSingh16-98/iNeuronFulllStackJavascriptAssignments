@@ -1,0 +1,52 @@
+nav{
+    background: transparent!important;
+    border: none!important;
+    padding: 2%!important;
+}
+a{
+    font-size: 24px!important;
+    color: lightgray!important;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: black!important;
+}
+.nav-button{
+    background: #6161ca;
+    color: white;
+    font-size: 19px;
+    border: none;
+    padding: 16%;
+    border-radius: 13px;
+    width: max-content;
+}
+.heading-text{
+    font-size: 85px;
+}
+.description{
+    color: grey;
+    font-size: 26px;
+}
+.ton1{
+    font-size: 19px!important;
+    padding: 5%;
+    border-radius: 12px;
+}
+.navbar{
+    width: 97%;
+    display: flex;
+}
+.grow-list{
+    width: inherit;
+    padding-left: 15%;
+}
+.list{
+    list-style-type: none;
+}
+.list-item{
+    float: left;
+    margin-left:3%
+}
+.banner-container{
+    display: flex;
+}
