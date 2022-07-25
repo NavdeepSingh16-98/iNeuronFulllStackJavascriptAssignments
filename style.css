@@ -21,15 +21,15 @@ a:hover,a:active{
     width: max-content;
 }
 .heading-text{
-    font-size: 85px;
+    font-size: 83px;
 }
 .description{
     color: grey;
-    font-size: 26px;
+    font-size: 23px;
 }
 .ton1{
     font-size: 19px!important;
-    padding: 5%;
+    padding: 3%;
     border-radius: 12px;
 }
 .navbar{
@@ -49,4 +49,7 @@ a:hover,a:active{
 }
 .banner-container{
     display: flex;
+}
+*{
+    font-family: 'poppins';
 }
