@@ -1,0 +1,44 @@
+nav{
+    width: 100%;
+    display: flex;
+}
+.nav-items{
+    width: inherit;
+    padding-left: 20%;
+}
+.nav-item{
+    font-size: 20px;
+    float: left;
+    margin-left: 18px;
+    color: #424261;
+}
+.learn-more-btn{
+    background: linear-gradient(#e5d8e7,#934d93);
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 17px;
+    border-radius: 38px;
+    margin-top: 7%;
+}
+.signin-btn{
+    background: linear-gradient(#e5d8e7,#934d93);
+    color: white;
+    font-size: 22px;
+    height: 41px;
+    border: none;
+    width: 150px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 38px;
+}
+.vector-img{
+    position: absolute;
+    bottom: 3%;
+    /* right: 44%; */
+    left: 25%;
+}
+.vector-dot{
+    position: absolute;
+    bottom: 16%;
+    left: 30%;
+}
