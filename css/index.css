@@ -1,0 +1,72 @@
+nav{
+    display: flex;
+    width: 100%;
+}
+.nav-items{
+    width:inherit;
+    padding-left: 19%;
+}
+.nav-item{
+    float:left;
+    margin-left:5%;
+    font-size:30px;
+}
+.nav-item:hover{
+    color: #f17c4c;
+}
+.sub-headline{
+    font-size: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.plus{
+    background: #f17c4c;
+    border-radius: 20px;
+    padding: 4px;
+}
+.text{
+    width: 48%;
+    color: grey;
+    font-size: 20px;
+}
+.action-btn{
+    background: #f17c4c;
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 28px;
+  
+}
+.intro-section{
+    display: flex;
+}
+.discount{
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+.discount-content{
+    position: absolute;
+    top: 54%;
+    right: 37%;
+    color: white;
+}
+.dots{
+    position: absolute;
+    bottom: 20%;
+    right: 23%;
+    display: flex;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+*{
+    font-family: 'poppins';
+}
+.sub-headlines{
+    padding-left: 8%;
+}
