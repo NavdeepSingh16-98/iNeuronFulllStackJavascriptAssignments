@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfeff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 60px;
+}
+
+nav {
+  display: flex;
+  margin: 20px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .brand-logo {
+  height: 40px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1em;
+  list-style: none;
+  font-weight: 500;
+  margin: 20px;
+  opacity: 0.6;
+}
+
+nav .active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+nav .nav-button {
+  background-color: transparent;
+  border: 3px solid #09c1f8;
+  color: #09c1f8;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  font-size: 1em;
+  opacity: 1;
+}
+
+.sec-image {
+  height: 350px;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2em;
+  height: 85vh;
+  align-items: center;
+}
+
+.feature-explanation {
+  grid-column: span 6;
+}
+
+.section-image {
+  margin: auto;
+  grid-column: span 6;
+}
+
+.feature-section .title {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.feature-section .explanation {
+  margin: 20px 0px;
+  font-size: 0.9em;
+}
+
+.body-button {
+  margin: 20px 0;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1.3em;
+  background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  color: #fdfeff;
+  font-weight: 600;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+}
+
+.providing-services {
+  margin-top: 50px;
+  display: grid;
+  gap: 2em;
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.providing-services .title {
+  font-size: 2em;
+  grid-column: span 6;
+}
+
+.providing-services .sub-title {
+  font-size: 0.9em;
+  grid-column: span 6;
+}
+
+.service-cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2em;
+}
+
+.card {
+  grid-column: span 4;
+  padding: 2em;
+  margin: 10px auto;
+  border-radius: 30px;
+  background: #fdfeff;
+  max-width: 300px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.card .card-icon {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.card .card-title {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.card .card-text {
+  font-size: 0.9em;
+}
+
+.price-cards {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.pricing {
+  background-color: #0463ea;
+}
+
+.pricing li {
+  list-style: none;
+  margin: 20px 0;
+}
+.price-card {
+  margin-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfeff;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.pricing ul {
+  padding: 0 2em;
+}
+
+.pricing li::before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-image: url("./images/icons/green-check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+
+.price-title {
+  padding: 2em 2em;
+}
+
+.main-title h1 {
+  display: block;
+  padding: 40px 0;
+  margin-top: 20px;
+  color: #fdfeff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.price-title .title {
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+.price-title .sub-title {
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.m-price {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.m-price span {
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.marked-price .small {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 0.8em;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.primary-button {
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 30px auto;
+  padding: 0.5em 1em;
+  border: 3px solid #0463ea;
+  color: #0463ea;
+  border-radius: 0.5em;
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+}
+
+.price-card #active {
+  background-color: #353535;
+  color: #fdfeff;
+  border-radius: 20px;
+}
+
+.price-card #active-btn {
+  background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  color: #fdfeff;
+  border: none;
+}
+
+.customer-title {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.customer-title h1 {
+  display: block;
+  margin: 20px auto;
+  font-size: 2.5em;
+}
+
+.customer-title p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.customer-feedback-cards {
+  margin: 60px;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+.feedback-card {
+  border-radius: 1em;
+  padding: 1.5em;
+  margin: 10px auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.27);
+}
+
+.client-profile {
+  grid-column: span 1;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.client-picture {
+  height: 50px;
+  width: 50px;
+  background-color: #353535;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.client-name h2 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.client-name p {
+  font-weight: 400;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.registration {
+  background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  color: #fdfeff;
+}
+
+.registration .container {
+  margin: 0 60px;
+  padding: 40px 0;
+  display: flex;
+}
+
+.registration .text {
+  max-width: 700px;
+}
+
+.registration .title {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 20px auto;
+}
+
+.registration .register {
+  font-size: 1em;
+  font-weight: 600;
+  margin: auto 0;
+  margin-left: auto;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  color: #fdfeff;
+  border: 1px solid #fdfeff;
+  border-radius: 5px;
+}
+
+footer .container {
+  margin: 60px;
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
+
+footer [alt="brand-logo"] {
+  height: 40px;
+}
+
+footer .logo-card {
+  max-width: 300px;
+}
+
+footer li {
+  list-style: none;
+  font-weight: 600;
+  margin: 10px auto;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.logo-card p {
+  font-weight: 600;
+  margin: 25px auto;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+footer .social-item {
+  display: inline-block;
+  font-weight: 700;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  color: #fdfeff;
+  background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
+  border-radius: 50%;
+}
