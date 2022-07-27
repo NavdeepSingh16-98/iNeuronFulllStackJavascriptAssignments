@@ -1,0 +1,181 @@
+/* *{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(to right, rgba(200, 8,207, 0.75), rgba(28, 70, 184, 0.8));
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: sans-serif;
+  }
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+  }
+  nav .logo{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  nav ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .row{
+    
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 10vh 5%;
+  }
+  .row .column1 {
+    margin-top: 60px;
+  }
+  .column1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .column1 button {
+    width: 200px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: inherit;
+    color: blue;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+ .column2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 320px;
+}
+.column2 .img-div {
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.column2 img {
+    width: 32px;
+    height: 32px;
+}
+.column2 h6 {
+    font-size: 16px;
+}
+.column3 button{
+    background-image: url(images/lightbulb.png);
+    width: auto;
+    padding:19px 20px;
+    font-size: 15px;
+}
+
+.col-a {
+    align-self: flex-end;
+    margin: 0px 0px 40px;
+}
+.col-b {
+    align-self: flex-start;
+    margin: 40px 0px 0px;
+} */
+nav{
+  width: 100%;
+  display: flex;
+  color:white;
+}
+.list{
+  list-style-type:none;
+}
+.list-item{
+  float:left;
+  margin-left:60px;
+ 
+  
+}
+a{
+  font-size:30px;
+}
+.middle1{
+  display: flex;
+  margin-top:5%;
+  position: relative;
+}
+.text{
+  color: white;
+    font-size: 100px;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.icon1{
+  font-size: 36px;
+    background: white;
+    width: 108px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 22px;
+}
+.badge1Text{
+  color: white;
+    font-size: 26px;
+
+}
+.badge{
+  width: 296px;
+    padding: 20px;
+    background: grey;
+    opacity: 0.9;
+    position: absolute;
+    right: 10%;
+}
+.badge2{
+  width: 296px;
+  padding: 20px;
+  background: grey;
+  opacity: 0.9;
+}
+.button{
+  font-size: 41px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 48px;
+}
+.middle2{
+  display: flex;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 17%;
+}
+.badge2{
+  width: 296px;
+    padding: 20px;
+    background: grey;
+    opacity: 0.9;
+    position: absolute;
+    right: 27%;
+
+}
