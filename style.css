@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+header {
+  font-family: "Roboto", sans-serif;
+  padding: 2% 10%;
+  background-color: #7030cc;
+  color: #ffffff;
+  border-radius: 40px 40px 0 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+
+nav .logo img {
+  height: 30px;
+}
+
+nav .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav .list-item {
+  list-style: none;
+  margin-right: 60px;
+}
+
+.list-item.active {
+  color: #1bbcef;
+  border-bottom: 1px solid #ffb6c1;
+}
+
+.nav-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #1bbcef;
+  padding: 10px 30px;
+  color: #ffffff;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-left {
+  margin-top: 100px;
+  width: 30%;
+}
+
+.hero-left h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero-left p {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.hero-right img {
+  height: 500px;
+}
+
+
+
+.features-section {
+  padding: 6% 10% 1% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feature-left img {
+  height: 600px;
+}
+
+.feature-right {
+  margin-top: 50px;
+  width: 30%;
+}
+
+.feature-right h2 {
+  font-size: 30px;
+}
+
+.feature-cards {
+  padding: 5%;
+  margin-top: 60px;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.feature-card img {
+  margin-right: 10px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.feature-card div h3 {
+  font-size: 24px;
+}
+
+.feature-card div p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+
+
+.services-section {
+  padding: 1% 10%;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 30px;
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.service-card {
+  margin: 0 10px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 3px #d3d3d3;
+}
+
+.service-card .card-header {
+  height: 200px;
+  padding: 50px;
+}
+
+.service-card .card-header span {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+#service-card1 {
+  background-color: #faeaeb;
+}
+#service-card2 {
+  background-color: #fbf0ee;
+}
+#service-card3 {
+  background-color: #e9f4f6;
+}
+#service-card4 {
+  background-color: #f2e7f5;
+}
+
+.service-card .card-header img {
+  margin-top: 28px;
+  height: 60px;
+}
+
+.service-card .card-body {
+  padding: 10px 50px;
+}
+
+.service-card .card-body.active {
+  background-color: #6429b7;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.service-card .card-body h3 {
+  font-size: 24px;
+}
+
+.service-card .card-body p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
