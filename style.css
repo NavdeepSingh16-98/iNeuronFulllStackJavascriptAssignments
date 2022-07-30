@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --red: #c91b28;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ----------- Navbar start ----------- */
+
+nav {
+  padding: 2% 10% 0 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 30px;
+}
+
+nav .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+nav .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  list-style: none;
+  padding-right: 60px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+nav .list-item img {
+  padding-left: 5px;
+  height: 16px;
+}
+
+/* ----------- Navbar end ----------- */
+
+/* ----------- Hero section start ----------- */
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  padding: 3% 10% 0 6%;
+}
+
+.hero-left img {
+  height: 550px;
+}
+
+.hero-right {
+  padding: 12% 0;
+}
+
+.hero-right .greeting {
+  color: var(--red);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.hero-right h1 {
+  font-weight: 700;
+  font-size: 66px;
+}
+
+.hero-right .hero-content {
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.hero-right button {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: var(--red);
+  padding: 15px 30px;
+  font-weight: 700;
+  border: none;
+}
+
+/* ----------- Hero section end ----------- */
+
+/* ----------- Services section start ----------- */
+
+.service-overlay {
+  height: 720px;
+  width: 50%;
+  background-color: #181818;
+  z-index: -1;
+  position: absolute;
+}
+
+.services-section {
+  padding: 6%;
+  z-index: 5;
+  position: absolute;
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.service-card {
+  background-color: #1e1e1e;
+  padding: 30px 50px;
+  margin: 0 2%;
+}
+
+.service-card img {
+  height: 66px;
+  margin-bottom: 20px;
+}
+
+.service-card p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.service-card h5 {
+  color: var(--red);
+  font-size: 16px;
+}
+
+.service-card.active {
+  background-color: var(--red);
+}
+
+.service-card.active img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.service-card.active h5 {
+  color: #ffffff;
+}
+
+.statistics-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 8% 7%;
+  text-align: center;
+}
+
+.statistics-section .left-section {
+  padding: 10% 2%;
+}
+
+.statistics-section .left-section h1 {
+  color: var(--red);
+  font-size: 84px;
+  font-weight: 900;
+}
+
+.statistics-section .left-section p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.stats-card {
+  background-color: #1e1e1e;
+  padding: 20px 30px;
+  margin: 2%;
+}
+
+.stats-card h2 {
+  color: var(--red);
+  font-size: 36px;
+}
+
+.stats-card p {
+  margin: 10px;
+}
+
+/* ----------- Services section end ----------- */
+
+/* ----------- Projects section start ----------- */
+
+.projects-section {
+  margin-top: 780px;
+  padding: 0 12% 0 10%;
+  margin-bottom: 50px;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects-header div:first-child h2 {
+  font-weight: 800;
+}
+
+.projects-header div:first-child p {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.projects-header div:last-child {
+  text-align: right;
+}
+
+.projects-header div:last-child button {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: var(--red);
+  padding: 15px 30px;
+  font-weight: 700;
+  border: none;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.project-card {
+  margin: 20px;
+}
+
+.project-card-header {
+  background-color: #1e1e1e;
+  padding: 60px;
+}
+.project-card-header img {
+  height: 240px;
+  width: 100%;
+}
+
+.project-card h3 {
+  font-weight: 900;
+  margin: 20px 0 10px 0;
+  font-size: 22px;
+}
+
+.project-card h5 {
+  color: var(--red);
+  font-size: 16px;
+}
+
+/* ----------- Projects section end ----------- */
+
+/* ----------- Contact section start ----------- */
+
+.contact-section {
+  margin: 2% 10%;
+  background-color: #1e1e1e;
+  padding: 4% 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.contact-left h1 {
+  font-size: 44px;
+}
+
+.contact-left p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.contact-right {
+  width: 45%;
+  text-align: center;
+}
+
+.contact-right button {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: var(--red);
+  padding: 15px 30px;
+  font-weight: 700;
+  border: none;
+}
+
+/* ----------- Contact section end ----------- */
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+
+.footer-links p {
+  margin: 0 3%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ----------- Footer section start ----------- */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 10%;
+  background-color: #1e1e1e;
+}
+
+.footer-left img {
+  height: 30px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+  margin-right: 40%;
+}
+
+.footer-right img {
+  height: 24px;
+  cursor: pointer;
+}
+
+/* ----------- Footer section end ----------- */
