@@ -288,7 +288,7 @@ body {
 }
 
 .main .left h1 {
-    font-size: 93px;
+    font-size: 72px;
     margin-bottom: 20px;
 }
 .main .left h1 span:nth-child(2) {
@@ -418,6 +418,7 @@ body {
 }
 .projects {
     margin-bottom:40px;
+    padding-top: 10vh;
 }
 
 .cards{
@@ -448,7 +449,7 @@ body {
 .project-box img{
 	width:22.8vw;
 	overflow: hidden;
-	height:30vh;
+	height:27vh;
 
 	
 
