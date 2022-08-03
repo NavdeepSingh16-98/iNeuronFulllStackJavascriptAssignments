@@ -216,13 +216,13 @@ body {
 #social-sidebar a[class*="github"] span:before {background: #9C7A5B;}
 
 
-@media only screen and (max-width: 995px) {
+/* @media only screen and (max-width: 995px) {
     .navbar {
         padding: 0 50px;
     }
-}
+} */
 
-@media only screen and (max-width: 555px) {
+/* @media only screen and (max-width: 555px) {
     .navbar .name h4 {
         visibility: hidden;
     }
@@ -230,8 +230,8 @@ body {
         visibility: visible;
         color: var(--primary);
     }
-}
-@media only screen and (max-width: 666px) {
+} */
+/* @media only screen and (max-width: 666px) {
 
 
 
@@ -274,7 +274,7 @@ body {
     
 
     
-} 
+}  */
 
 
 /*---------------------- main section ----------------------*/
@@ -346,7 +346,7 @@ body {
 }
 
 
-@media only screen and (max-width: 995px) {
+/* @media only screen and (max-width: 995px) {
     .main .left h1 {
         font-size: 1rem;
     }
@@ -361,8 +361,8 @@ body {
     .button-container a {
         padding: 10px 30px;
     }
-}
-@media only screen and (max-width: 816px) {
+} */
+/* @media only screen and (max-width: 816px) {
     .main {
         flex-direction: column;
         align-items: center;
@@ -382,8 +382,8 @@ body {
     .projects > h1 {
         font-size: 2.8rem !important ;
     }
-}
-@media only screen and (max-width: 666px) {
+} */
+/* @media only screen and (max-width: 666px) {
     .list {
         flex-direction: column;
         gap: 0px;
@@ -399,7 +399,7 @@ body {
         margin-top: -180px;
     }
 
-}
+} */
 
 
 /*------------------- projects section ---------------------*/
