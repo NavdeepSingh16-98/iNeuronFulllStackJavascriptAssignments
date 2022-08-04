@@ -10,7 +10,7 @@
 
 <br>
 
-![Law Home Page](./3.png)
+![Law Home Page](./Law.png)
 
 <br>
 
