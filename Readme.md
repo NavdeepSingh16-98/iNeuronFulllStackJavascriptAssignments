@@ -18,5 +18,5 @@
 
 #### Live link to the project 👇
 
-[https://02-abhishek-food-resturant-landing-page.netlify.app/](https://02-abhishek-food-resturant-landing-page.netlify.app/ "Find the Project live link here")
+[https://navdeep-project2.netlify.app/ "Find the Project live link here")
 <br>
