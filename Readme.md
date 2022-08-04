@@ -18,5 +18,5 @@
 
 #### Live link to the project 👇
 
-[](https://navdeep-project2.netlify.app/ "Find the Project live link here")
+[project2](https://navdeep-project2.netlify.app/ "Find the Project live link here")
 <br>
