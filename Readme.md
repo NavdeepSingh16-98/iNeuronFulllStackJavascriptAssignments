@@ -7,7 +7,7 @@
 - CSS Flexbox
 - Various CSS properties like- border-radius, opacity etc.
 
-![Project14](./../project14.png)
+![Project14](./project14.png)
 
 ![](https://img.shields.io/badge/Time-7--8hrs-brightgreen)
 
