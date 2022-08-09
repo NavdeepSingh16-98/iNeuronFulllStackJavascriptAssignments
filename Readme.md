@@ -8,7 +8,7 @@
 - CSS Positions
   
 
-  ![](./../project16-portfolio.png)
+  ![](./project16-portfolio.png)
 
   ![](https://img.shields.io/badge/Time-10--12hrs-brightgreen)
 
