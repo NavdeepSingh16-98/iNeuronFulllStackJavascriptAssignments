@@ -6,7 +6,7 @@
 
 <br>
 
-### In this project learned -
+### In this project I learned -
 - how to display image in background.
 - linear gradient
 
