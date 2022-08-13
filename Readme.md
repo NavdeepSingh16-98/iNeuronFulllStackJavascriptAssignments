@@ -6,7 +6,9 @@
 
 <br>
 
-### I learned how to display image in background.
+### In this project learned -
+- how to display image in background.
+- linear gradient
 
 <br>
 
