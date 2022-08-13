@@ -1,11 +1,14 @@
-# Live class from hitesh
+# Developer Landing Page
 
-## a class about hosting your webpage for free
+## Navdeep Singh
 
-In this class we discussed about pushing code to git and github.
-Also, we talked about pushing website to netlify. but you can also use
-Vercel
+### I Learnt to create full length beatiful web page called Developers Landing Page template. HTML, CSS, CSS Selector, Flexbox, Positions and SVGs are the main concepts of the project I covered in this project. I also learn't how to push my code to github, though I know it before but the new thing I learnt to make my Github project Live.
 
-[Vercel](https://vercel.com)
+![](./images/screenshot.png)
 
-![badge](https://img.shields.io/badge/Live--class-Sunday-green)
+Live Link :point_down:
+
+[Project9](https://navdeep-project9.netlify.app/)
+
+![badge](https://img.shields.io/badge/Time-7--8%20hrs-brightgreen)
+
