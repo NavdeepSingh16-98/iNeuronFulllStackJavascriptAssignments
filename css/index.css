@@ -7,12 +7,15 @@ nav{
     padding-left: 20%;
 }
 .nav-item{
-    font-size: 20px;
+    font-size: 1.5vw;
     float: left;
-    margin-left: 18px;
+    margin-left: 2vw;
     color: #424261;
 }
-.learn-more-btn{
+.logo{
+    margin: 2%;
+}
+/* .learn-more-btn{
     background: linear-gradient(#e5d8e7,#934d93);
     color: white;
     font-size: 30px;
@@ -20,16 +23,36 @@ nav{
     padding: 17px;
     border-radius: 38px;
     margin-top: 7%;
+} */
+.learn-more-btn {
+    background: linear-gradient(#e5d8e7,#934d93);
+    color: white;
+    font-size: 2vw;
+    border: none;
+    padding: 1.5%;
+    border-radius: 5vw;
+    margin-top: 7%;
 }
 .signin-btn{
-    background: linear-gradient(#e5d8e7,#934d93);
+    /* background: linear-gradient(#e5d8e7,#934d93);
     color: white;
     font-size: 22px;
     height: 41px;
     border: none;
     width: 174px;
     padding: 0px 12px 0px 12px;
-    border-radius: 38px;
+    border-radius: 38px; */
+    background: linear-gradient(#e5d8e7,#934d93);
+    color: white;
+    font-size: 1.5vw;
+    /* height: 41px; */
+    border: none;
+    width: 20vw;
+    /* padding: 0px 12px 0px 12px; */
+    /* padding: 1% 1%; */
+    border-radius: 5vw;
+    height: 41px;
+    margin: auto;
 }
 .vector-img{
     position: absolute;
@@ -41,4 +64,84 @@ nav{
     position: absolute;
     bottom: 16%;
     left: 30%;
+}
+.intro-img{
+    position: absolute;
+    z-index: -2;
+    top: 16vh;
+    right: 27vh;
+    width: 56vw;
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    flex: 0.4;
+}
+.img-div-new{
+    display: none;
+}
+.desc{
+    font-size: 1.5vw;
+          
+          color: #9898cb;
+          padding-right: 5%;
+}
+@media screen and (max-width:1200px){
+    .intro-img{
+        right: 0vh;
+    }
+}
+@media screen and (max-width:700px){
+    .left-section{
+        text-align: center;
+    }
+    .desc{
+        font-size: 3.5vw;
+    }
+.nav-items{
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.signin-btn{
+    font-size: 4.5vw;
+    width: auto;
+    margin: 10%;
+}
+.vector-dot{
+    display: none;
+}
+.vector-img{
+    display: none;
+}
+.intro-section{
+    flex-direction: column-reverse;
+}
+.backcover{
+    display: flex;
+    justify-content: flex-end;
+}
+.intro {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    /* right: 1%; */
+    /* left: 6%; */
+}
+.img-div-new{
+    display: block;
+    position: relative;
+}
+.imgs-div{
+    display: none;
+}
+.learn-more-btn{
+    font-size: 6vw;
+    width: 80%;
+    padding: 2%;
+}
 }
