@@ -100,6 +100,13 @@ body {
     align-self: flex-start;
     margin: 40px 0px 0px;
 } */
+body{
+  background-image: url(./images/interior\ design.jfif);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 5%;
+}
 nav{
   width: 100%;
   display: flex;
@@ -107,10 +114,12 @@ nav{
 }
 .list{
   list-style-type:none;
+  display: flex;
+    justify-content: space-between;
 }
 .list-item{
-  float:left;
-  margin-left:60px;
+  /* float:left;
+  margin-left:45px; */
  
   
 }
@@ -121,13 +130,15 @@ a{
   display: flex;
   margin-top:5%;
   position: relative;
+  flex-direction: row;
 }
 .text{
   color: white;
-    font-size: 83px;
-    width: 50%;
+    font-size: 6vw;
+    flex:1.5
+    /* width: 50%;
     margin-top: 5%;
-    margin-left: 17%;
+    margin-left: 17%; */
 }
 .icon1{
   font-size: 36px;
@@ -142,13 +153,17 @@ a{
     font-size: 26px;
 
 }
+.badge-upper{
+  flex: 1;
+}
 .badge{
+  
   width: 296px;
     padding: 20px;
     background: grey;
     opacity: 0.9;
-    position: absolute;
-    right: 10%;
+    /* position: absolute;
+    right: 10%; */
 }
 .badge2{
   width: 296px;
@@ -157,25 +172,87 @@ a{
   opacity: 0.9;
 }
 .button{
-  font-size: 41px;
+  font-size: 3vw;
     background: transparent;
     color: white;
     border: 2px solid white;
-    padding: 20px;
-    border-radius: 48px;
+    padding: 1vw;
+    border-radius: 3vw;
 }
 .middle2{
   display: flex;
     position: relative;
     margin-top: 3%;
-    margin-left: 17%;
+    /* margin-left: 17%; */
+}
+.middle2-button-div{
+  flex: 1;
+    text-align: center;
 }
 .badge2{
   width: 296px;
     padding: 20px;
     background: grey;
     opacity: 0.9;
-    position: absolute;
-    right: 27%;
+    /* position: absolute;
+    right: 27%; */
 
+}
+.badge2-upper{
+  flex: 1;
+}
+.nav-div{
+  width:100%;margin-left: 20%;flex:1.3;
+}
+.header{
+  display: flex;
+}
+.logo-div{
+  padding-top: 2%; 
+}
+.logo{
+  width: 90%;
+}
+@media screen and (max-width:1200px){
+  ul.list{
+    display: none;
+  }
+  nav{
+    width: fit-content;
+  }
+  .nav-div{
+    width:100%;margin-left: 20%;display: flex;
+    justify-content: end;
+  }
+}
+@media screen and (max-width:700px){
+.header{
+  flex-direction: column;
+}
+.nav-div{
+  justify-content: start;
+}
+.middle1{
+  flex-direction: column;
+}
+.middle2{
+  flex-direction: column;
+}
+.badge-upper{
+  display: flex;
+  justify-content: center;
+}
+.badge2-upper{
+  display: flex;
+  justify-content: center;
+}
+.middle2-button-div {
+  flex: 1;
+  text-align: center;
+  margin: 2vw 2vw 3vw 2vw;
+}
+.button{
+  font-size: 5vw;
+  border-radius: 5vw;
+}
 }

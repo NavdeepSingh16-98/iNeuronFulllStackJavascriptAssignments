@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body style="background-image:url('./images/interior\ design.jfif');background-repeat:no-repeat;background-size:cover;">
+  <body >
     <!-- <h1>Welcome to ultimate test for HTML and CSS challenge</h1>
     <h3>
       In Home page and Landing page folder, images of web pages is given. Please
@@ -20,12 +20,12 @@
       please add it from your side. It's time that you use brain.exe
     </p> -->
     <div class="main-div">
-      <div style="display: flex;">
-        <div style="width: fit-content;padding-top: 15px;">
-          <img src="./images/logo.svg" />
+      <div class="header">
+        <div class="logo-div">
+          <img src="./images/logo.svg" class="logo"/>
         </div>
-        <div style="width:100%;margin-left: 20%;">
-      <nav style="padding-bottom: 20px;
+        <div class="nav-div">
+      <nav style="padding-bottom: 2%;
       border-bottom: 2px solid white;">
         <div style="width: 100%;">
           <ul class="list">
@@ -36,11 +36,17 @@
             <li class="list-item"><a >Services</a></li>
           </ul>
         </div>
-        <div style="width: 400px;
+        <div style="
         display: flex;
-        font-size: 24px;">
-          <i class="fa fa-phone" style="margin-top: 16px;"></i>
-          <div style="margin-left: 19px;">
+        font-size: 24px;margin-left: 2%;">
+          <i class="fa fa-phone" style="display: flex;
+          flex-direction: column;
+          justify-content: center;"></i>
+          <div style="margin-left: 1%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 200px;">
 
           
           <div>Call Us</div>
@@ -58,6 +64,7 @@
             Interior Design That Care About Details
           </span>
         </div>
+        <div class="badge-upper">
         <div class="badge">
           <div class="icon1">
             <i class="fa-solid fa-puzzle-piece"></i>
@@ -67,10 +74,12 @@
           </div>
         </div>
       </div>
+      </div>
       <div class="middle2">
-        <div >
+        <div class="middle2-button-div" >
           <button class="button">Learn More</button>
         </div>
+        <div class="badge2-upper">
         <div class="badge2">
           <div class="icon1">
             <i class="fa-solid fa-lightbulb"></i>
@@ -79,6 +88,7 @@
            Innovative idea, stylish designs for home & Business
           </div>
         </div>
+      </div>
       </div>
     </div>
   </body>
