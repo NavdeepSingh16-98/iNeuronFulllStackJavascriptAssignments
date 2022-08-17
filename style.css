@@ -25,7 +25,7 @@ nav {
 }
 
 nav .brand-logo {
-  height: 40px;
+  /* height: 40px; */
 }
 
 nav li {
@@ -54,7 +54,8 @@ nav .nav-button {
 }
 
 .sec-image {
-  height: 350px;
+  /* height: 350px; */
+  height: 29vw;
 }
 
 .feature-section {
@@ -76,7 +77,7 @@ nav .nav-button {
 
 .feature-section .title {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 4vw;
 }
 
 .feature-section .explanation {
@@ -89,7 +90,7 @@ nav .nav-button {
   padding: 0.5em 1em;
   border: none;
   border-radius: 0.5em;
-  font-size: 1.3em;
+  font-size: 1.5vmax;
   background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
   color: #fdfeff;
   font-weight: 600;
@@ -105,7 +106,7 @@ nav .nav-button {
 }
 
 .providing-services .title {
-  font-size: 2em;
+  font-size: 2vw;
   grid-column: span 6;
 }
 
@@ -147,13 +148,14 @@ nav .nav-button {
 }
 
 .card .card-text {
-  font-size: 0.9em;
+  font-size: 1vmax;
 }
 
 .price-cards {
   display: flex;
   gap: 1em;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .pricing {
@@ -200,7 +202,7 @@ nav .nav-button {
   color: #fdfeff;
   text-align: center;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.5vmax;
 }
 
 .price-title .title {
@@ -267,7 +269,7 @@ nav .nav-button {
 .customer-title h1 {
   display: block;
   margin: 20px auto;
-  font-size: 2.5em;
+  font-size: 2.5vmax;
 }
 
 .customer-title p {
@@ -324,6 +326,7 @@ nav .nav-button {
   margin: 0 60px;
   padding: 40px 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .registration .text {
@@ -331,7 +334,7 @@ nav .nav-button {
 }
 
 .registration .title {
-  font-size: 2.5em;
+  font-size: 2.5vmax;
   line-height: 1em;
   margin: 20px auto;
 }
@@ -346,6 +349,7 @@ nav .nav-button {
   color: #fdfeff;
   border: 1px solid #fdfeff;
   border-radius: 5px;
+  
 }
 
 footer .container {
@@ -353,6 +357,7 @@ footer .container {
   display: flex;
   gap: 2em;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer [alt="brand-logo"] {
@@ -388,4 +393,60 @@ footer .social-item {
   color: #fdfeff;
   background: linear-gradient(135deg, #09c1f8 0%, #0463ea 100%);
   border-radius: 50%;
+}
+@media screen and (max-width:1100px){
+.nav-list{
+  display: none;
+}
+/* .price-title .sub-title {
+  font-size: 1.4vmax;
+  
+}
+.price-title .title {
+  font-size: 2vmax;
+  
+} */
+
+}
+@media screen and (max-width:700px){
+nav{
+  flex-direction: column;
+}
+.brand-logo {
+    /* height: 40px; */
+    height: auto;
+    width: 70%;
+    margin: 2vw;
+}
+.nav-button{
+  font-size: 5vw;
+    margin: 2vw;
+}
+.service-cards {
+ 
+  grid-template-columns: none;
+  
+}
+.price-title .sub-title {
+  font-size: 2vmax;
+  
+}
+.price-title .title {
+  font-size: 3vmax;
+  
+}
+.customer-feedback-cards {
+  /* margin: 60px;
+  display: grid;
+  gap: 1em; */
+  grid-template-columns: none;
+}
+.registration .title {
+  font-size: 3.5vmax;
+ 
+}
+.registration .register {
+ 
+  margin: 5px auto auto auto;
+}
 }
