@@ -152,7 +152,7 @@ nav .list-item {
 }
 
 .services-section h2 {
-  font-size: 30px;
+  font-size: 2.3vw;
 }
 
 .service-cards {
@@ -240,5 +240,11 @@ nav .list-item {
   }
   .service-cards{
     flex-wrap: wrap;
+  }
+  .service-card {
+    border-radius: 0;
+  }
+  .service-card .card-body.active {
+    border-radius: 0;
   }
 }
