@@ -69,7 +69,7 @@ nav .list-item img {
 }
 
 .hero-left img {
-  height: 550px;
+  width: 36vw;
 }
 
 .hero-right {
@@ -79,26 +79,30 @@ nav .list-item img {
 .hero-right .greeting {
   color: var(--red);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .hero-right h1 {
   font-weight: 700;
-  font-size: 66px;
+  font-size: 4vw;
 }
 
 .hero-right .hero-content {
-  margin-top: 10px;
+  /* margin-top: 10px;
   line-height: 1.5;
   width: 80%;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
+  padding: 2vw 2vw 2vw 0;
+    /* width: 80%; */
+    /* margin-bottom: 30px; */
+    font-size: 1.3vw;
 }
 
 .hero-right button {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: var(--red);
-  padding: 15px 30px;
+  padding: 1vw 2vw;
   font-weight: 700;
   border: none;
 }
@@ -118,7 +122,7 @@ nav .list-item img {
 .services-section {
   padding: 6%;
   z-index: 5;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .service-cards {
@@ -130,23 +134,30 @@ nav .list-item img {
 
 .service-card {
   background-color: #1e1e1e;
-  padding: 30px 50px;
+  /* padding: 30px 50px; */
+  padding: 2vw 3vw;
   margin: 0 2%;
 }
 
 .service-card img {
-  height: 66px;
-  margin-bottom: 20px;
+  /* height: 66px;
+  margin-bottom: 20px; */
+  width: 4vw;
+    margin-bottom: 2%;
 }
-
+.service-card h2{
+  font-size: 1.5vw;
+}
 .service-card p {
-  line-height: 1.5;
-  margin: 10px 0;
+  /* line-height: 1.5;
+  margin: 10px 0; */
+  margin: 2% 2% 2% 0;
+  font-size: 1vw;
 }
 
 .service-card h5 {
   color: var(--red);
-  font-size: 16px;
+  font-size: 1.3vw;
 }
 
 .service-card.active {
@@ -175,36 +186,39 @@ nav .list-item img {
 
 .statistics-section .left-section h1 {
   color: var(--red);
-  font-size: 84px;
+  font-size: 7vw;
   font-weight: 900;
 }
 
 .statistics-section .left-section p {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2vw;
 }
 
 .stats-card {
   background-color: #1e1e1e;
-  padding: 20px 30px;
+  padding: 1.5vw;
   margin: 2%;
 }
 
 .stats-card h2 {
   color: var(--red);
-  font-size: 36px;
+  font-size: 3vw;
 }
 
 .stats-card p {
-  margin: 10px;
+  margin: 2%;
 }
 
 /* ----------- Services section end ----------- */
+/* .right-section{
+  display: flex;
+} */
 
 /* ----------- Projects section start ----------- */
 
 .projects-section {
-  margin-top: 780px;
+  margin-top: 5vh;
   padding: 0 12% 0 10%;
   margin-bottom: 50px;
 }
@@ -213,6 +227,7 @@ nav .list-item img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .projects-header div:first-child h2 {
@@ -232,7 +247,7 @@ nav .list-item img {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: var(--red);
-  padding: 15px 30px;
+  padding: 1vw;
   font-weight: 700;
   border: none;
 }
@@ -240,7 +255,7 @@ nav .list-item img {
 .projects-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 3%;
 }
 
 .project-card {
@@ -249,17 +264,18 @@ nav .list-item img {
 
 .project-card-header {
   background-color: #1e1e1e;
-  padding: 60px;
+  padding: 3vw;
 }
 .project-card-header img {
-  height: 240px;
-  width: 100%;
+  /* height: 240px; */
+  width: 30vw;
 }
 
 .project-card h3 {
   font-weight: 900;
-  margin: 20px 0 10px 0;
-  font-size: 22px;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 2vw;
 }
 
 .project-card h5 {
@@ -279,20 +295,22 @@ nav .list-item img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact-left {
   width: 50%;
+  flex: 0.9;
 }
 
 .contact-left h1 {
-  font-size: 44px;
+  font-size: 3vw;
 }
 
 .contact-left p {
-  font-size: 16px;
+  font-size: 1.2vw;
   line-height: 1.5;
-  margin-top: 20px;
+  margin-top: 2%;
 }
 
 .contact-right {
@@ -317,13 +335,14 @@ nav .list-item img {
   justify-content: center;
   margin-top: 6%;
   margin-bottom: 3%;
+  flex-wrap: wrap;
 }
 
 .footer-links p {
   margin: 0 3%;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.2vw;
   font-weight: 700;
 }
 
@@ -338,7 +357,7 @@ footer {
 }
 
 .footer-left img {
-  height: 30px;
+  height: 2vw;
 }
 
 .footer-right {
@@ -350,8 +369,20 @@ footer {
 }
 
 .footer-right img {
-  height: 24px;
+  height: 2vw;
   cursor: pointer;
 }
 
 /* ----------- Footer section end ----------- */
+
+@media screen  and (max-width:1100px) {
+  .service-cards{
+    flex-wrap:wrap;
+  }
+  
+}
+@media screen and (max-width:900px){
+  ul.list{
+    display: none;
+  }
+}
