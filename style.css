@@ -385,4 +385,11 @@ footer {
   ul.list{
     display: none;
   }
+  .hero-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero-right{
+    text-align: center;
+  }
 }
