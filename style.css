@@ -99,7 +99,8 @@ h3 {
   border: none;
   background-color: var(--cl-green);
   color: var(--cl-primary-bg);
-  padding: 1em 2em;
+  padding: 1vw 2vw;
+  width: 9vw;
 }
 
 .container {
@@ -145,17 +146,20 @@ nav li {
   gap: 3em;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-image {
-  background-image: url("./images/hero.jpg");
+  /* background-image: url("./images/hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0.5em;
   background-color: var(--cl-green);
   height: 500px;
-  width: 400px;
+  width: 400px; */
+  width: 30vw;
+    border-radius: 1vw;
 }
 
 .hero-text {
@@ -171,7 +175,8 @@ nav li {
 .email-group {
   display: flex;
   justify-content: start;
-  padding: 0.5em 0.5em;
+  /* padding: 0.5em 0.5em; */
+  padding: 0.5vw 0.5vw;
   align-items: center;
   max-width: 500px;
   gap: 0.5em;
@@ -183,12 +188,14 @@ nav li {
   height: 40px;
   padding: 1em;
   border: none;
-  font-size: var(--fs-md);
+  /* font-size: var(--fs-md); */
+  font-size: 1.3vw;
 }
 
 .email-group button {
   width: 200px;
-  font-size: var(--fs-md);
+  /* font-size: var(--fs-md); */
+  font-size: 1vmax;
   font-weight: 600;
 }
 
@@ -211,7 +218,7 @@ nav li {
 }
 
 .target-customer-img {
-  background-image: url("./images/target\ customers.jpg");
+  /* background-image: url("./images/target\ customers.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,14 +226,30 @@ nav li {
   height: 600px;
   display: flex;
   justify-content: center;
+  align-items: center; */
+  justify-content: center;
   align-items: center;
+  position: relative;
+}
+.target-img{
+  width:70vw;
+  z-index: -1;
+}
+.play-btn{
+  position: absolute;
 }
 
 [alt="play-btn"] {
   color: var(--cl-green);
   background-color: var(--cl-primary-bg);
-  padding: 1em;
+  padding: 1vw;
   border-radius: 50%;
+}
+.achivements h2{
+  font-size: 2.5vw;
+}
+.achivements p{
+   text-align:center;
 }
 
 /* team intro section */
@@ -246,7 +269,9 @@ nav li {
 
 .text-container {
   max-width: 500px;
-  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .text-container h2 {
@@ -254,12 +279,12 @@ nav li {
 }
 
 .intro-image {
-  grid-column: span 1;
+  /* grid-column: span 1;
   height: 500px;
   width: 500px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; */
 }
 
 #image-1 {
@@ -279,6 +304,7 @@ nav li {
 .best-employees .emp-text-container {
   width: 100%;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .best-emp-title {
@@ -291,6 +317,7 @@ nav li {
 
 .emp-cards {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .emp-card {
@@ -327,6 +354,7 @@ footer {
   justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 2px solid var(--cl-primary-bg);
+  flex-wrap:wrap;
 }
 
 footer [alt="brand-logo"] {
@@ -346,6 +374,7 @@ footer [alt="brand-logo"] {
 
 .footer-cards {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer-card h2 {
@@ -354,4 +383,15 @@ footer [alt="brand-logo"] {
 
 .footer-card li {
   list-style: none;
+}
+
+
+@media screen and (max-width:1100px){
+  ul.list{
+    display: none;
+  
+  }
+}
+@media screen and (max-width:700px){
+
 }

@@ -13,25 +13,30 @@
     <header>
       <nav>
         <img src="./images/white-logo.png" alt="brand-logo" />
-        <ul>
+        <ul class="list">
           <li>Home</li>
           <li>About us</li>
           <li>Pages</li>
           <li>Agent</li>
           <li>Blog</li>
           <li>Subscribe</li>
-          <li><button class="nav-button">Let's Talk</button></li>
+          <!-- <li><button class="nav-button">Let's Talk</button></li> -->
         </ul>
+        <div class="nav-button-div">
+          <button class="nav-button">Let's Talk</button>
+        </div>
       </nav>
       <!-- hero section -->
       <div class="container">
         <div class="hero-section flex">
-          <div class="hero-image"></div>
+          <div class="hero-image-div">
+            <img src="./images/hero.jpg" alt="" class="hero-image">
+          </div>
           <div class="hero-text flex">
-            <h1 class="fs-xlg fw-700 mb-2">
+            <h1 class=" fw-700 mb-2" style="font-size: 3vw;">
               Empowring your business with the best solution.
             </h1>
-            <p class="fs-md fw-600 mt-2 mb-2">
+            <p class=" fw-600 mt-2 mb-2" style="font-size: 1.5vw;">
               We connect your brand & business with your target market in the
               most desirable, refined, and elevated way possible through the
               digital medium.
@@ -48,28 +53,29 @@
 
     <section class="target-buisiness">
       <div class="container">
-        <h1 class="fs-lg text-center">
+        <h1 class=" text-center" style="font-size: 3vw;">
           We connect your business with your target
         </h1>
         <div class="achivements flex mt-4">
           <div class="achivement">
-            <h2 class="fs-lg">1,093</h2>
+            <h2 class="">1,093</h2>
             <p class="fs-sm fw-600 text-gray">Finished projects</p>
           </div>
           <div class="achivement">
-            <h2 class="fs-lg">3,355</h2>
+            <h2 class="">3,355</h2>
             <p class="fs-sm fw-600 text-gray">Enrolled projects</p>
           </div>
           <div class="achivement">
-            <h2 class="fs-lg">40</h2>
+            <h2 class="">40</h2>
             <p class="fs-sm fw-600 text-gray">Team Workers</p>
           </div>
           <div class="achivement">
-            <h2 class="fs-lg">90%</h2>
+            <h2 class="">90%</h2>
             <p class="fs-sm fw-600 text-gray">Satisfaction rate</p>
           </div>
         </div>
         <div class="target-customer-img flex mt-4">
+          <img src="./images/target customers.jpg" alt="" class="target-img" style="width:70vw ;">
           <div class="play-btn">
             <img src="./images/play.svg" alt="play-btn" />
           </div>
@@ -79,40 +85,46 @@
     <!-- team section -->
     <section class="team-intro">
       <div class="container">
-        <h1 class="fs-lg text-center">We have made your care easy for you</h1>
+        <h1 class="" style="font-size: 3vw;text-align:center">We have made your care easy for you</h1>
         <div class="intro-cards mt-4">
           <div class="intro-card mt-4">
             <div class="text-container">
-                <h2 class="fs-lg mb-2">Effective website design and development</h1>
-                <p class="fs-md text-gray mb-4">
+                <h2 class=" mb-2" style="font-size: 2.5vw;">Effective website design and development</h1>
+                <p class=" text-gray mb-4" style="font-size: 1.5vw;">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
                   facere ea quo. Modi rerum voluptas a error esse aut quidem.
                 </p>
-                <button class="primary-button fw-700 fs-md">Let's talk</button>
+                <button class="primary-button fw-700 "style="font-size:1vw;">Let's talk</button>
             </div>
-            <div class="intro-image" id="image-1"></div>
+            <div class="intro-image" >
+              <img src="./images/intro-1.jpg" alt="" class="image-1" style="width:42vw">
+            </div>
           </div>
           <div class="intro-card mt-4">
-            <div class="intro-image" id="image-2"></div>
+            <div class="intro-image" id="image-2">
+              <img src="./images/intro-2.jpg" alt="" class="image-2" style="width:42vw">
+            </div>
             <div class="text-container">
-                <h2 class="fs-lg mb-2">We give proven digital marketing stratagies for our clients</h1>
-                <p class="fs-md text-gray mb-4">
+                <h2 class=" mb-2" style="font-size: 2.5vw;">We give proven digital marketing stratagies for our clients</h1>
+                <p class=" text-gray mb-4" style="font-size:1.5vw;">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
                   facere ea quo. Modi rerum voluptas a error esse aut quidem.
                 </p>
-                <button class="primary-button fw-700 fs-md">Let's talk</button>
+                <button class="primary-button fw-700 "style="font-size:1vw;">Let's talk</button>
             </div>
           </div>
           <div class="intro-card mt-4">
                 <div class="text-container">
-                <h2 class="fs-lg mb-2">People will always judge the book by its cover.</h1>
-                <p class="fs-md text-gray mb-4">
+                <h2 class=" mb-2" style="font-size: 2.5vw;">People will always judge the book by its cover.</h1>
+                <p class=" text-gray mb-4" style="font-size: 1.5vw;">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
                   facere ea quo. Modi rerum voluptas a error esse aut quidem.
                 </p>
-                <button class="primary-button fw-700 fs-md">Let's talk</button>
+                <button class="primary-button fw-700 " style="font-size:1vw;">Let's talk</button>
             </div>
-            <div class="intro-image" id="image-3"></div>
+            <div class="intro-image" >
+              <img src="./images/intro-3.jpg" alt="" class="image-3" style="width: 42vw;">
+            </div>
           </div>
         </div>
       </div>
@@ -122,8 +134,8 @@
     <section class="best-employees">
         <div class="container">
             <div class="emp-text-container flex">
-                <h1 class="best-emp-title fs-lg">Meet our great creative teams</h1>
-                  <p class="best-emp-subtitle text-gray fs-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos distinctio laborum dolore aperiam ad totam doloremque iste porro accusantium quibusdam alias laboriosam harum, veniam reprehenderit eligendi repellat reiciendis dolorem enim.</p>
+                <h1 class="best-emp-title " style="font-size: 2.5vw;">Meet our great creative teams</h1>
+                  <p class="best-emp-subtitle text-gray " style="font-size: 1.2vw;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos distinctio laborum dolore aperiam ad totam doloremque iste porro accusantium quibusdam alias laboriosam harum, veniam reprehenderit eligendi repellat reiciendis dolorem enim.</p>
             </div>
             <div class="emp-cards flex mt-4">
               <div class="emp-card">
