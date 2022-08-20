@@ -54,7 +54,7 @@ nav .list-item {
 .nav-btn {
   font-family: "Roboto", sans-serif;
   background-color: #1bbcef;
-  padding: 10px 30px;
+  padding: 1vw 2vw;
   color: #ffffff;
   border: none;
 }
@@ -66,13 +66,14 @@ nav .list-item {
 }
 
 .hero-left {
-  margin-top: 100px;
-  width: 30%;
+  margin-top: 10%;
+  /* width: 30%; */
+  flex: 0.7;
 }
 
 .hero-left h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 44px;
+  font-size: 2.7vw;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -85,7 +86,8 @@ nav .list-item {
 }
 
 .hero-right img {
-  height: 500px;
+  /* height: 500px; */
+  width: 34vw;
 }
 
 
@@ -98,16 +100,19 @@ nav .list-item {
 }
 
 .feature-left img {
-  height: 600px;
+  /* height: 600px; */
+  width: 40vw;
 }
 
 .feature-right {
   margin-top: 50px;
-  width: 30%;
+  /* width: 30%; */
+  flex: 0.7;
 }
 
 .feature-right h2 {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 2.5vw;
 }
 
 .feature-cards {
@@ -129,7 +134,7 @@ nav .list-item {
 }
 
 .feature-card div h3 {
-  font-size: 24px;
+  font-size: 2vw;
 }
 
 .feature-card div p {
@@ -154,7 +159,7 @@ nav .list-item {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 2vw;
 }
 
 .service-card {
@@ -164,15 +169,15 @@ nav .list-item {
 }
 
 .service-card .card-header {
-  height: 200px;
-  padding: 50px;
+  height: 14vw;
+  padding: 4vw;
 }
 
 .service-card .card-header span {
   display: inline-block;
-  height: 120px;
-  width: 120px;
-  border-radius: 60px;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
 }
 
 #service-card1 {
@@ -189,27 +194,51 @@ nav .list-item {
 }
 
 .service-card .card-header img {
-  margin-top: 28px;
-  height: 60px;
+  margin-top: 2vw;
+  /* height: 60px; */
+  width: 4vw;
 }
 
 .service-card .card-body {
-  padding: 10px 50px;
+  padding: 1vw 2vw;
 }
 
 .service-card .card-body.active {
   background-color: #6429b7;
   color: #ffffff;
-  border-radius: 30px;
+  border-radius: 2vw;
 }
 
 .service-card .card-body h3 {
-  font-size: 24px;
+  font-size: 1.5vw;
 }
 
 .service-card .card-body p {
-  margin-top: 10px;
-  font-size: 14px;
+  /* margin-top: 10px; */
+  font-size: 1vw;
   line-height: 1.5;
 }
 
+@media screen and (max-width:1250px){
+  ul.list{
+    display: none;
+  }
+  nav{
+    margin-right: 0;
+  }
+}
+@media screen and (max-width:700px){
+  .hero{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .features-section {
+    flex-direction: column;
+  }
+  .feature-left{
+    text-align: center;
+  }
+  .service-cards{
+    flex-wrap: wrap;
+  }
+}
