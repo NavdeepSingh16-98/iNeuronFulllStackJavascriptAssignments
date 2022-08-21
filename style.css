@@ -285,4 +285,15 @@ nav .list-item.active {
   right:10%;
 }
 }
-
+@media screen and (max-width:700px){
+  ul.list{
+    display: none;
+  }
+  .wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-section .logo{
+    width: 20vw;
+  }
+}
