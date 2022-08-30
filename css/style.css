@@ -519,6 +519,8 @@ text-align: center;
     }
     .project-box img {
         width: 40vw;}
+        .main {
+            height: 18em;}
 }
 @media screen and (max-width:768px){
 
