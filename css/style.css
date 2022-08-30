@@ -37,7 +37,7 @@ body {
 .navbar {
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 10vh;
     align-items: center;
     position: fixed;
@@ -127,6 +127,7 @@ body {
     padding:10px 20px;
   
     text-decoration: none;
+    font-size: 1.5vw;
 }
 .list-item :hover{
     padding:10px 20px;
@@ -136,7 +137,7 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,169,195,1) 0%, #4f378e 100%);
     color: white;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.5vw;
 
 }
 
@@ -288,8 +289,8 @@ body {
 }
 
 .main .left h1 {
-    font-size: 72px;
-    margin-bottom: 20px;
+    font-size: 3vw;
+    margin-bottom: 2vw;
 }
 .main .left h1 span:nth-child(2) {
     color: var(--primary);
@@ -508,6 +509,47 @@ text-align: center;
     border-bottom: 1px solid rgba(255,255,255,.01);
     padding: 10px 80px 0;
 
+}
+@media screen and (max-width:1100px){
+    ul.list{
+        display:none;
+    }
+}
+@media screen and (max-width:768px){
+
+   
+    .list-item{
+        margin-left: 0;
+    }
+    .list-item a{
+        font-size: 2.5vw;
+    }
+    .list-item a:hover{
+        font-size: 2.5vw;
+    }
+    div.person{
+        display:none;
+    }
+    .project-box img {
+        width: 58.8vw;}
+        footer{
+            height:10vh;
+        }
+        .navbar{
+            flex-direction: column;
+        }
+        .main .left h1 {
+            font-size: 5vw;
+            margin-bottom: 1vw;
+        }
+        .main {
+            margin-top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 27em;
+        }
 }
 
 
