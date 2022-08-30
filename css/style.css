@@ -517,6 +517,8 @@ text-align: center;
     div.person{
         display:none;
     }
+    .project-box img {
+        width: 40vw;}
 }
 @media screen and (max-width:768px){
 
