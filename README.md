@@ -1,4 +1,4 @@
-# iNeuronFulllStackJavascriptAssignments
+# Navdeep Singh
 
 ## Hi , Welcome to my repository
 
