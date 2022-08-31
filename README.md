@@ -19,7 +19,7 @@
 
 
 ## Live Demo 👇
-[Live Link](https://paytm-clone-asb.vercel.app/)
+[Live Link](https://navdeep-paytm-clone.netlify.app/)
 
 <br/> 
 
