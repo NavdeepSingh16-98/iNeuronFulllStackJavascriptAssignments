@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    background-color: #242B2E;
+    
+
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+.dec7{
+    font-size:2vw;
+}
+.icon{
+    color: aliceblue;
+    font-size: 60px;
+    /* margin-right: 800px; */
+    color: #D82E2F;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.nav-items{
+    text-align: center;
+    padding: 10px 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item{
+    color: aliceblue;
+    font-family: "Lato";
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+.list-item:hover{
+    color: #D82E2F;
+}
+
+
+
+.intro{
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
+h1{ 
+    font-size: 5vw;
+    font-family: "Lato";
+}
+
+p{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.about-me{
+     color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Quicksand";
+
+
+}
+
+
+.box{
+    /* height: 20px; */
+    /* width: 550px; */
+    /* filter: invert(13%) sepia(99%) saturate(3156%) hue-rotate(345deg) brightness(106%) contrast(95%); */
+   /* margin-left: 500px; */
+   width:100%;
+   margin-top:10%;
+}
+
+.desc-1{
+    font-size: 50px;
+}
+
+.hitesh-link{
+    text-decoration: none;
+    color: antiquewhite
+}
+
+.contact{
+    color: aliceblue;
+     font-size: 30px;
+    font-weight: bold;
+    font-family: "Quicksand";
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100vw;
+   align-items: center;
+    gap: 20px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.icons{
+    color: #D82E2F;
+    font-size: 50px;
+}
+
+.footer{
+   font-size: 15px;
+   font-style: normal;
+   font-family: "Montserrat";
+   text-align: center;
+}
+
+.github{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.github-text{
+     margin-top: 100px;
+   font-size: 25px; 
+   font-weight: bold;
+}
+@media screen and (max-width:768px){
+    .intro{
+        height: 70vh;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+.icon-div{
+    flex: 1;
+    text-align: center;
+}
+.nav-items{
+    flex-direction: column;
+    justify-content: space-around;
+    gap:2%;
+    height: 40vh;
+}
+.dec7{
+    font-size:4vw;
+}
+
+}
