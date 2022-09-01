@@ -80,8 +80,29 @@ a{
         gap:2%;
         
     }
-    .buttons > p{
+    /* .buttons > p{
         display: none;
 
+    } */
+    .img{
+        width: 71vw;
+    }
+    .output1{
+   width: inherit;
+        /* height: 280px; */
+    }
+    .output2{
+        
+        margin-top: unset;
+        height:unset;
+        width: inherit;
+    }
+    .outer-box{
+        width:unset;
+        height: unset;
+    }
+    .out{
+        width:unset;
+        height:unset;
     }
 }
