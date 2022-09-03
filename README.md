@@ -22,7 +22,7 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 <br>
 
-![Screenshot](./images/screenshot.png "Template Screenshot")
+![Screenshot](./images/multiShopify.png "Template Screenshot")
 
 ## 📌 My process
 
