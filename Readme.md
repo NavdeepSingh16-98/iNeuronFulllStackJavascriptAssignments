@@ -6,6 +6,9 @@
 
 - CSS FlexBox
 - CSS BoxShadow
+- CSS media queries
+
+### This webpage is mobile responsive too
 
 ![Project 11](./project11.png)
 
