@@ -2,7 +2,9 @@
 
 ## Navdeep Singh
 
-### In this project, I learned to use z-index, css positioning
+### In this project, I learned to use z-index, css positioning, css media queries
+
+### This webpage is mobile responsive too
 
 ![Project7](./Project7.png)
 
