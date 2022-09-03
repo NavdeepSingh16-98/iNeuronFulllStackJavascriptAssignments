@@ -7,6 +7,9 @@
 - Display Flex property
 - CSS Positions
 - How to apply Icons
+- media queries
+
+### This webpage is mobile responsive too
   
   ![Project10](./project10.png)
 
