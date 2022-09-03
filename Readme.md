@@ -6,6 +6,9 @@
 
 - CSS Flexbox
 - Various CSS properties like- border-radius, opacity etc.
+- CSS media queries
+
+### This webpage is mobile responsive too
 
 ![Project14](./project14.png)
 
