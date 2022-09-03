@@ -7,6 +7,9 @@
 - CSS FlexBox
 - CSS elements like section, header, footer etc.
 - CSS Properties like border-radius etc.
+- CSS media queries
+
+### This webpage is mobile responsive too
 
 
 ![](./project15.png)
