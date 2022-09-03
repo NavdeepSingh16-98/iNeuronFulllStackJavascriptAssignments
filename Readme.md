@@ -2,7 +2,8 @@
 
 ## Navdeep Singh
 
-### In this project I learned CSS postioning , z-index, linear-gradient
+### In this project I learned CSS postioning , z-index, linear-gradient, media queries
+### This webpage is mobile responsive too
 
 ![Project8](./project8.png)
 
