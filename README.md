@@ -1,7 +1,7 @@
 
 
 # Rode Clone 
-[![Clone Project](https://img.shields.io/badge/Clone-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Technologies](https://img.shields.io/badge/Technologies%20-HTML%2FCSS%2FTailwindCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Device](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
+
 
 </br>
 
