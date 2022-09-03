@@ -28,7 +28,6 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 - I joined a bootcamp **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**.<a href="https://ineuron.ai/"> **Check🚀 (Not Sponsered)**</a>
 - This project is given to us as an assignment.
-- After completing shopify clone for about **14 hours** started developing this rode clone.
 - It took me about **13 hours** to complete this project.
 - During this **13 hours** process learned about the new CSS framework i.e. Tailwind CSS.
 
