@@ -1,4 +1,4 @@
-## ⭐ Shopify.in Clone ⭐
+## ⭐ Shopify.com/in Clone ⭐
 
 This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5, CSS3 and Tailwind CSS**.
 
@@ -34,7 +34,6 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 ## 📌 What I Learn
 
 👉 Learn how to code for long hours.  
-👉 learn about a lot of design patterns like z-pattern.  
 👉 Learn an arrow animation and apply it to the button.  
 👉 Learn mobile-first design using CSS.  
 👉 How to develop full fledge landing page.  
