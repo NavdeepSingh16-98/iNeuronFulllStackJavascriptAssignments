@@ -1,63 +1,57 @@
-<!-- # Hey Welcome 👋
-### Hi, I'm Navdeep Singh, a Passionate Frontend Web Developer .
+## ⭐ Paytm.com Clone ⭐
 
-</br> -->
+This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5, CSS3 and Tailwind CSS**.
 
-# Paytm Clone 
-[![Clone Project](https://img.shields.io/badge/Clone-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Technologies](https://img.shields.io/badge/Technologies%20-HTML%2FCSS%2FTailwindCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Device](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
+⭕ **This Site is Fully Responsive**
+<br>
+<br>
 
-</br>
+## 📌 **Live Site URL:** <a href="https://navdeep-paytm-clone.netlify.app/">**Visit Now** 🚀</a>
 
-## Preview
-<br/> 
+<br>
 
-![CSS3](./images/screenshot2.png)
+## 📌 Tech Stack
 
-<br/> 
-<br/> 
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+<img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>&nbsp;
+<br>
+<br>
 
+## 📌 Overview
 
+<br>
 
-## Live Demo 👇
-[Live Link](https://navdeep-paytm-clone.netlify.app/)
+![Screenshot](./images/screenshot2.png "Template Screenshot")
 
-<br/> 
+## 📌 My process
 
-## 💻 Technologies Used:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+- I joined a bootcamp **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**.<a href="https://ineuron.ai/"> **Check🚀 (Not Sponsered)**</a>
+- This project is given to us as an assignment.
+- After completing paytm clone for about **10 hours** started developing this shopify clone.
+- It took me about **9 hours** to complete this project.
+- During this **9 hours** process learned about the new CSS framework i.e. Tailwind CSS.
 
-</br>
+## 📌 What I Learn
 
-<!-- ## Demo -->
+👉 Learn how to code for long hours.  
+👉 learn about a lot of design patterns like z-pattern.  
+👉 Learn hover css using Tailwind and apply it to the button.  
+👉 Learn mobile-first design using CSS.  
+👉 How to develop full fledge landing page.  
+👉 Learn to plan such a huge project.  
+👉 Learn how to build fluid layouts using FlexBox.
 
+## 📬 Connect With Me
 
-
-
-## Time Taken
-It took me about 08 Hours to complete this project
-
-<br/> 
-
-## Feedback
-
-If you have any feedback, please reach me at seraph.navdeep@gmail.com
-
-<br/> 
-
-<!-- Social Links -->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
+- **LinkedIn** - [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-a9112313b/)
 
 
+## 📌 Acknowledgments
 
+- Course Instructor - [Hitesh Choudhary](https://github.com/hiteshchoudhary)
+- Icons Used For Tech Stack Section - [https://img.shields.io](https://img.shields.io)
 
-
-
-<!-- Linkedin -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0B5FBB
-[linkedin-url]: https://www.linkedin.com/in/navdeep-singh-a9112313b/
 
 
 
