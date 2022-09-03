@@ -6,6 +6,9 @@
 
 - CSS Flexbox
 - CSS properties like - border-radius
+- CSS media queries
+
+### This webpage is mobile responsive too
 
 ![Project12](./project12.png)
 
