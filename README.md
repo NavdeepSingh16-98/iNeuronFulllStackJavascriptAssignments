@@ -34,7 +34,8 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 ## 📌 What I Learn
 
-👉 Learn how to code for long hours.  
+👉 Learn how to code for long hours.
+👉 Learn how to add icon in title of webpage
 👉 learn about a lot of design patterns like z-pattern.  
 👉 Learn hover css using Tailwind and apply it to the button.  
 👉 Learn mobile-first design using CSS.  
