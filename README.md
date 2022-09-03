@@ -2,7 +2,7 @@
 
 ## Hi , Welcome to my repository
 
-### Kindly view go through all the branches of this repository to view my projects
+### Kindly  go through all the branches of this repository to view my projects
 
 
 
