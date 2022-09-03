@@ -22,7 +22,7 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 <br>
 
-![Screenshot](./images/multiRode.png "Template Screenshot")
+![Screenshot](./multiRode.png "Template Screenshot")
 
 ## 📌 My process
 
