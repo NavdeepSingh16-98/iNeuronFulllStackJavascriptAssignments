@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navdeep Budget App</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+        <div style="text-align: center;font-size: 4em;"><span><em> KhataApp</em></span></div>
+         <!-- Output -->
+         <div class="output-container flex-space">
+            <div>
+              <p>Total Budget</p>
+              <span id="amount">0</span>
+            </div>
+            <div>
+              <p>Expenses</p>
+              <span id="expenditure-value">0</span>
+            </div>
+            <div>
+              <p>Balance</p>
+              <span id="balance-amount">0</span>
+            </div>
+          </div>
+      <div class="container">
+        <div class="sub-container">
+          <!-- Budget -->
+          <div class="total-amount-container">
+            <h3>Budget <em>(Kitna Hai ?)</em></h3>
+            <p class="hide error" id="budget-error">
+              Value cannot be empty or negative
+            </p>
+            <input
+              type="number"
+              id="total-amount"
+              placeholder="Enter Total Amount"
+            />
+            <button class="submit" id="total-amount-button">Set Budget</button>
+          </div>
+
+          <!-- Expenditure -->
+          <div class="user-amount-container">
+            <h3>Expenses <em>(Kharche)</em></h3>
+            <p class="hide error" id="item-title-error">
+              Values cannot be empty
+            </p>
+            <input
+              type="text"
+              class="item-title"
+              id="item-title"
+              placeholder="Enter Title of item"
+            />
+            <input
+              type="number"
+              id="user-amount"
+              placeholder="Enter Cost of item"
+            />
+            <button class="submit" id="check-amount">Check Amount</button>
+          </div>
+        </div>
+       
+      </div>
+      <!-- List -->
+      <div class="list">
+        <h3>Expense List <em>(Kharchon Ki List)</em></h3>
+        <div class="list-container" id="list"></div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
