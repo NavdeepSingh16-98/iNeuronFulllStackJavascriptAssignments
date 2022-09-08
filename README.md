@@ -1,6 +1,5 @@
 ## ⭐ Rode.com Clone ⭐
 
-This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5, CSS3 and Tailwind CSS**.
 
 ⭕ **This Site is Fully Responsive**
 <br>
@@ -26,8 +25,6 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 ## 📌 My process
 
-- I joined a bootcamp **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**.<a href="https://ineuron.ai/"> **Check🚀 (Not Sponsered)**</a>
-- This project is given to us as an assignment.
 - It took me about **13 hours** to complete this project.
 - During this **13 hours** process learned about the new CSS framework i.e. Tailwind CSS.
 
@@ -49,7 +46,6 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 
 ## 📌 Acknowledgments
 
-- Course Instructor - [Hitesh Choudhary](https://github.com/hiteshchoudhary)
 - Icons Used For Tech Stack Section - [https://img.shields.io](https://img.shields.io)
 
 
