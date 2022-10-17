@@ -43,8 +43,19 @@ h1,p{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
+}
+.container1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: 20px;
 }
 
+section{
+    padding-top: 30px;
+}
 .buttons{
     display: flex;
     justify-content: space-between;
