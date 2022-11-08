@@ -6,7 +6,7 @@
 
 #### My Learnings-
 
-- Basics of HTML, CSS and Javascript
+- Basics of HTML, CSS and Javascript(ES6)
 - Basics of API integration and API calling
 - Using QR code API
 
