@@ -10,6 +10,6 @@
 
 ![](./Image/Project_1.png)
 
-
+[Live Link](https://navdeep-accordion.netlify.app/)
 ![](https://img.shields.io/badge/Time%20Taken-1--2%20hours-brightgreen)
 
