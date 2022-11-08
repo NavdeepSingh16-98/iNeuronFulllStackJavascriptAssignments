@@ -12,6 +12,6 @@
 
 ![](Image/Capture.PNG)
 
-[Live Link](https://navdeep-qr-converter.netlify.app/)
+[Live Link](https://navdeep-qr-generater.netlify.app/)
 
 ![](https://img.shields.io/badge/Time%20Taken-4--5%20hours-brightgreen)
