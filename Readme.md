@@ -2,7 +2,7 @@
 
 ## Navdeep Singh
 
-### Enter the test for which you want to generate QR code, the click on 'Generate' button, QR code will appear below
+### Enter the text for which you want to generate QR code, the click on 'Generate' button, QR code will appear below
 
 #### My Learnings-
 
