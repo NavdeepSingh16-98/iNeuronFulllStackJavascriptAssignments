@@ -1,63 +1,54 @@
-<!-- # Hey Welcome 👋
-### Hi, I'm Navdeep Singh, a Passionate Frontend Web Developer .
-
-</br> -->
-
-# Paytm Clone 
-[![Clone Project](https://img.shields.io/badge/Clone-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Technologies](https://img.shields.io/badge/Technologies%20-HTML%2FCSS%2FTailwindCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Device](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
-
-</br>
-
-## Preview
-<br/> 
-
-![CSS3](./images/screenshot2.png)
-
-<br/> 
-<br/> 
+## ⭐ Paytm.com Clone ⭐
 
 
+⭕ **This Site is Fully Responsive**
+<br>
+<br>
 
-## Live Demo 👇
-[Live Link](https://navdeep-paytm-clone.netlify.app/)
+## 📌 **Live Site URL:** <a href="https://navdeep-paytm-clone.netlify.app/">**Visit Now** 🚀</a>
 
-<br/> 
+<br>
 
-## 💻 Technologies Used:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+## 📌 Tech Stack
 
-</br>
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+<img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>&nbsp;
+<br>
+<br>
 
-<!-- ## Demo -->
+## 📌 Overview
+
+<br>
+
+![Screenshot](./images/MultiPaytm.png "Template Screenshot")
+
+## 📌 My process
+
+- It took me about **9 hours** to complete this project.
+- During this **9 hours** process learned about the new CSS framework i.e. Tailwind CSS.
+
+## 📌 What I Learn
+
+👉 Learn how to code for long hours.
+👉 Learn how to add icon in title of webpage
+👉 learn about a lot of design patterns like z-pattern.  
+👉 Learn hover css using Tailwind and apply it to the button.  
+👉 Learn mobile-first design using CSS.  
+👉 How to develop full fledge landing page.  
+👉 Learn to plan such a huge project.  
+👉 Learn how to build fluid layouts using FlexBox.
+
+## 📬 Connect With Me
+
+- **LinkedIn** - [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-a9112313b/)
 
 
+## 📌 Acknowledgments
 
 
-## Time Taken
-It took me about 08 Hours to complete this project
+- Icons Used For Tech Stack Section - [https://img.shields.io](https://img.shields.io)
 
-<br/> 
-
-## Feedback
-
-If you have any feedback, please reach me at seraph.navdeep@gmail.com
-
-<br/> 
-
-<!-- Social Links -->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-
-
-
-<!-- Linkedin -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0B5FBB
-[linkedin-url]: https://www.linkedin.com/in/navdeep-singh-a9112313b/
 
 
 
