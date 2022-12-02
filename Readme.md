@@ -9,4 +9,4 @@
 ![](./images/date.png)
 
 
-[Live Link]('https://navdeep-countdown.netlify.app')
+[Live Link](https://navdeep-countdown.netlify.app)
