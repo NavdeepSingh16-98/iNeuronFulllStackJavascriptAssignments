@@ -9,4 +9,4 @@
 
 ![](./images/count.png)
 
-[Live Link]('https://navdeep-wordcount.netlify.app')
+[Live Link](https://navdeep-wordcount.netlify.app)
