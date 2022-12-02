@@ -10,4 +10,4 @@
 
 ![](./images/watch.png)
 
-[Live Link]('https://navdeep-stopwatch.netlify.app')
+[Live Link](https://navdeep-stopwatch.netlify.app)
