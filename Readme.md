@@ -10,4 +10,4 @@
 
 
 ![](./images/list.png)
-[Live Link]('https://navdeep-todolist.netlify.app')
+[Live Link](https://navdeep-todolist.netlify.app)
