@@ -9,4 +9,4 @@
 
 ![](./images/calculator.png)
 
-[Live Link]('https://navdeep-calculator.netlify.app')
+[Live Link](https://navdeep-calculator.netlify.app)
