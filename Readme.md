@@ -9,4 +9,4 @@
 
 ![](./images/form.png)
 
-[Live Link]('https://navdeep-formvalidation.netlify.app')
+[Live Link](https://navdeep-formvalidation.netlify.app)
