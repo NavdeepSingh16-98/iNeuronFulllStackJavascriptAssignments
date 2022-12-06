@@ -1,32 +1,66 @@
-# Navdeep Singh
+# Hi I am Navdeep Singh
 
-## Hi , Welcome to my repository
+## !!! Welcome to my repository!!!
+
+### My Introduction -
+
+###  I am currently working as a frontend developer at Tata Consultancy Services Ltd.I have 2 years of work Experience
+
+### You can check my [LinkedIn Profile](https://www.linkedin.com/in/navdeep-singh-a9112313b/) 
+
+###  [my portfolio](https://navdeep-portfolio.netlify.app/) and [my Blogs](https://navdeep167.hashnode.dev/)
+
+
+### My Teck stack includes - HTML 5, CSS, Tailwind CSS, Javascript, React js and Node js
 
 ### Kindly  go through all the branches of this repository to view my projects
 
 
-### Some Highlighted Projects are as below :
+### Some Highlighted Branches are as below :
 
-#### Paytm Clone
+#### Javacript Projects 
+
+##### Rock Paper Scissor Game
+
+![](./assets/RockPaperScissor.png)
+
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/rock-paper-scissor)
+
+##### Palindrome Checker
+
+![](./assets/palindrome.png)
+
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/palindrome)
+
+##### Word and Character Counter
+
+![](./assets/wordCount.png)
+
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/wordcount)
+
+
+#### HTML, CSS and Tailwind CSS Projects
+
+##### Paytm Clone
 
 [Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/paytm-clone)
 ![Paytm](./assets/MultiPaytm.png)
 
 
-#### Shopify Clone
+##### Shopify Clone
 
 [Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/shopify-clone)
 ![Shopify](./assets/multiShopify.png)
 
 
-#### Rode Clone
+##### Rode Clone
 
 [Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/rode-clone)
 ![Rode](./assets/multiRode.png)
 
 
 
-### Link to all the remaining projects(branches) in this repository are given below-
+#### Remaining HTML and CSS (mobile responsive websites) links - 
 
 
 [Project 1](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/project1)
@@ -62,13 +96,6 @@
 
 
 
+#### Keep viewing this repository for more updates as I will keep pushing the code
 
-
-
-
-
-#### Regards,
-
-#### Navdeep Singh
-
-[Linkedin Profile](https://www.linkedin.com/in/navdeep-singh-a9112313b/)
+## !! Thanks For Viewing !!
