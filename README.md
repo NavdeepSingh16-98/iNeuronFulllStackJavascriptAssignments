@@ -1,66 +1,100 @@
-# Hi I am Navdeep Singh
+# Hi 
+#  I am <strong>Navdeep Singh </strong>
 
 ## !!! Welcome to my repository!!!
+<br/>
 
 ### My Introduction -
 
-###  I am currently working as a frontend developer at Tata Consultancy Services Ltd.I have 2 years of work Experience
+>  I am currently working as a frontend developer at Tata Consultancy Services Ltd.I have 2 years of work Experience
 
-### You can check my [LinkedIn Profile](https://www.linkedin.com/in/navdeep-singh-a9112313b/) 
+> You can check my [LinkedIn Profile](https://www.linkedin.com/in/navdeep-singh-a9112313b/) 
 
-###  [my portfolio](https://navdeep-portfolio.netlify.app/) and [my Blogs](https://navdeep167.hashnode.dev/)
+> [my portfolio](https://navdeep-portfolio.netlify.app/) and [my Blogs](https://navdeep167.hashnode.dev/)
+
+<br/>
+
+### My Teck stack includes 
 
 
-### My Teck stack includes - HTML 5, CSS, Tailwind CSS, Javascript, React js and Node js
+ > - HTML 5 
+> - CSS 
+> - Tailwind CSS
+> - Javascript
+> -  React js 
+> -  Node js
 
-### Kindly  go through all the branches of this repository to view my projects
+<br/>
 
+## Kindly  go through all the branches of this repository to view my projects
+<br>
 
-### Some Highlighted Branches are as below :
+> ###  Some Highlighted Branches are as below :
 
-#### Javacript Projects 
+<br>
 
-##### Rock Paper Scissor Game
+##  <strong>Javacript Projects</strong> 
+
+<br>
+
+### <em><strong> Rock Paper Scissor Game</em>
+<br>
 
 ![](./assets/RockPaperScissor.png)
 
 [Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/rock-paper-scissor)
 
-##### Palindrome Checker
+<br>
+
+###   <em><strong>Palindrome Checker</strong></em>
 
 ![](./assets/palindrome.png)
 
-[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/palindrome)
+<strong>[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/palindrome)
 
-##### Word and Character Counter
+<br>
+
+
+### <em><strong> Word and Character Counter</strong></em>
 
 ![](./assets/wordCount.png)
 
 [Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/wordcount)
 
 
-#### HTML, CSS and Tailwind CSS Projects
+<br>
+<br>
 
-##### Paytm Clone
+## <strong> HTML, CSS and Tailwind CSS Projects</strong>
 
-[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/paytm-clone)
+<br>
+
+### <em><strong> Paytm Clone</strong></em>
+
+
 ![Paytm](./assets/MultiPaytm.png)
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/paytm-clone)
+
+<br>
+
+### <em><strong> Shopify Clone </strong></em>
 
 
-##### Shopify Clone
-
-[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/shopify-clone)
 ![Shopify](./assets/multiShopify.png)
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/shopify-clone)
 
 
-##### Rode Clone
+<br>
 
-[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/rode-clone)
+### <em><strong> Rode Clone </strong></em>
+
+
 ![Rode](./assets/multiRode.png)
+[Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/rode-clone)
 
+<br>
 
-
-#### Remaining HTML and CSS (mobile responsive websites) links - 
+## <strong>Remaining HTML and CSS (mobile responsive websites) links -</strong> 
 
 
 [Project 1](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/project1)
@@ -96,6 +130,6 @@
 
 
 
-#### Keep viewing this repository for more updates as I will keep pushing the code
+> ### Keep viewing this repository for more updates as I will keep pushing the code
 
-## !! Thanks For Viewing !!
+## <em> !! Thanks For Viewing !! </em>
