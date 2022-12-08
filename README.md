@@ -50,6 +50,7 @@
 ![](./assets/user-crud.png)
 
 [Git Repo Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/user-crud)
+<br>
 [Live Link](https://navdeep-user-crud.netlify.app/)
 
 <br>
