@@ -23,6 +23,10 @@
 > - Javascript
 > -  React js 
 > -  Node js
+> - Express js
+> - MongoDB
+
+
 
 <br/>
 
@@ -30,6 +34,23 @@
 <br>
 
 > ###  Some Highlighted Branches are as below :
+
+<br>
+
+##  <strong>Full Stack Javacript Projects</strong> 
+
+### Technology Stack used-
+> ###  HTML, CSS ,Tailwind CSS,  Javascript , React js, Node js, Express js, MongoDB
+
+<br>
+
+### <em><strong> User CRUD operations Application</strong></em>
+<br>
+
+![](./assets/user-crud.png)
+
+[Git Repo Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/user-crud)
+[Live Link](https://navdeep-user-crud.netlify.app/)
 
 <br>
 
