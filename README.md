@@ -43,7 +43,8 @@
 > ###  HTML, CSS ,Tailwind CSS,  Javascript , React js, Node js, Express js, MongoDB
 
 <br>
-### <em><strong> Todo Application</strong></em>
+###   <em><strong> Todo Application</strong></em>
+
 <br>
 
 ![](./assets/TodoSc.png)
@@ -53,7 +54,8 @@
 [Live Link](https://navdeep-todo.netlify.app/signup)
 
 <br>
-### <em><strong> User CRUD operations Application</strong></em>
+###  <em><strong> User CRUD operations Application</strong></em>
+
 <br>
 
 ![](./assets/user-crud.png)
