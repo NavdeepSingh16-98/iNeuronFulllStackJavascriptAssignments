@@ -46,7 +46,7 @@
 ### <em><strong> Todo Application</strong></em>
 <br>
 
-![](./assets/TodoAppSc.png)
+![](./assets/TodoSc.png)
 
 [Git Repo Link](https://github.com/NavdeepSingh16-98/TodoAppFull)
 <br>
