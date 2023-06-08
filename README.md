@@ -80,7 +80,7 @@
 
 <br>
 
-> User CRUD operations Application
+<!-- > User CRUD operations Application
 
 <br>
 
@@ -90,7 +90,7 @@
 <br>
 [Live Link](https://navdeep-user-crud.netlify.app/)
 
-<br>
+<br> -->
 
 ##  <strong>Javacript Projects</strong> 
 
