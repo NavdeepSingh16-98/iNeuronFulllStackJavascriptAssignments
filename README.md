@@ -44,6 +44,29 @@
 
 <br>
 
+> Ecommerce Website
+
+<br>
+> Special Features
+
+- Frontend
+    - React Js
+    - HTML
+    - CSS
+- Backend
+    - NodeJs
+    - Express Js
+    - Stripe(for payment gateway)
+
+
+![](./assets/SinghMobiles.PNG)
+
+[Git Repo Link](https://github.com/NavdeepSingh16-98/ExpressQ9)
+<br>
+[Live Link](https://navdeep-ecommerce.netlify.app/)
+
+<br>
+
 > Todo Application
 
 <br>
