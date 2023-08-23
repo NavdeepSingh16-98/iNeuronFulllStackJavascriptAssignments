@@ -1,0 +1,51 @@
+.search-bar {
+  width: 100%;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  appearance: none;
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  font-size: var(--chakra-fontSizes-md);
+  padding-inline-start: var(--chakra-space-4);
+  padding-inline-end: var(--chakra-space-4);
+  height: auto;
+  border-radius: var(--chakra-radii-lg);
+  background: var(--chakra-colors-transparent);
+  padding-top: var(--chakra-space-4);
+  padding-bottom: var(--chakra-space-4);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-left: 10px;
+  font-size: large !important;
+  border-color: transparent !important;
+}
+
+.search-model {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: var(--chakra-space-12);
+  margin-inline-start: var(--chakra-space-2);
+  margin-inline-end: var(--chakra-space-2);
+  background: var(--chakra-colors-white);
+  box-shadow: var(--chakra-shadows-2xl);
+  max-width: var(--chakra-sizes-3xl);
+  max-height: 40vh;
+  overflow: hidden;
+  width: var(--chakra-sizes-full);
+  border-radius: var(--chakra-radii-md);
+  border-width: 1px;
+  border-style: solid;
+  transform: none;
+  z-index: 1600;
+}
+
+@media screen and (max-width: 850px) {
+  .search-content {
+    width: 80% !important;
+    align-items: center !important;
+  }
+}

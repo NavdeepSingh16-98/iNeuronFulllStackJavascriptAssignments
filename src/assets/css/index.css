@@ -1,0 +1,51 @@
+* {
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  border-color: var(--chakra-colors-chakra-border-color);
+  word-wrap: break-word;
+}
+
+body {
+  font-family: var(--chakra-fonts-body);
+  color: var(--chakra-colors-chakra-body-text);
+  background: var(--chakra-colors-chakra-body-bg);
+  transition-property: background-color;
+  transition-duration: var(--chakra-transition-duration-normal);
+  line-height: var(--chakra-lineHeights-base);
+  font-feature-settings: "ss02";
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000;
+  background: #aeccec;
+}
+
+::selection {
+  color: #000;
+  background: #aeccec;
+}
+
+/* total width */
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: #babac0a3;
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display: none;
+}
