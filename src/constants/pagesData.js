@@ -7,12 +7,12 @@ const pagesData = [
     icon: "home",
     link: urlLinkData.home,
   },
-  {
-    title: "Blog",
-    key: "blog",
-    icon: "home",
-    link: urlLinkData.blog,
-  },
+  // {
+  //   title: "Blog",
+  //   key: "blog",
+  //   icon: "home",
+  //   link: urlLinkData.blog,
+  // },
   // {
   //   title: "Link Tree",
   //   key: "link-tree",

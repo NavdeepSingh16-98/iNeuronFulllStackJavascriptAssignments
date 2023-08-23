@@ -1,5 +1,5 @@
 export const urlLinkData = {
   home: "/",
   linkTree: "/link-tree",
-  blog: "/blog",
+  blog: "https://navdeep167.hashnode.dev/",
 };

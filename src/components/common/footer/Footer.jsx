@@ -48,6 +48,9 @@ export default function Footer() {
               {i.title}
             </Link>
           ))}
+           <a  href="https://navdeep167.hashnode.dev/" >
+              Blogs
+            </a>
         </Stack>
       </Container>
 

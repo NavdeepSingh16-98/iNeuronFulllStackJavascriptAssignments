@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import Main from "../pages/Main/Main";
 import LinkTree from "../pages/LinkTree/LinkTree";
-import Blog from "../pages/Blog/Blog";
+// simport Blog from "../pages/Blog/Blog";
 import { urlLinkData } from "../constants/urlLinkData";
 
 export default function UIRouter() {
@@ -13,7 +13,7 @@ export default function UIRouter() {
         path={urlLinkData.linkTree}
         element={<MainLayout Children={LinkTree} />}
       />
-      <Route path={urlLinkData.blog} element={<MainLayout Children={Blog} />} />
+      {/* <Route path={urlLinkData.blog} element={<MainLayout Children={Blog} />} /> */}
       <Route path={urlLinkData.home} element={<MainLayout Children={Main} />} />
       <Route path="*" element={<Navigate to={urlLinkData.home} replace />} />
     </Routes>
