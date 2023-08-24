@@ -7,7 +7,7 @@ const projectsData = [
     imgAlt: "Project's Image",
     title: "Singh Mobiles",
     description:
-      "It is a placement notice board and data collection platform for college's placement cell. Developed Django REST based back-end application and converted client side to downloadable Progressive Web App which sent notifications to mobile Application is still being used by college's placement cell.",
+      "It is an ecommerce website for a mobile store with all features like cart, payment gateway and product code. Developed Node Js expres Js REST based back-end application and converted client side to downloadable Progressive Web App which sent notifications to mobile Application is still being used by Sing Mobiles, Ludhiana.",
     href: "https://navdeep-ecommerce.netlify.app/",
     key: "project-1",
   },
@@ -16,7 +16,7 @@ const projectsData = [
     imgAlt: "Project's Image",
     title: "Full Fledged Todo App with all features like creating task, timestamp tasks, sort tasks etc.",
     description:
-      "Bringing a brick and mortar online and creating solutions to help them streamline and automate daily tasks. Added payment gateway for online payments and automated bill generation to reduce paper work. Used Django REST and ReactJS to solve daily business issues faced by the client.",
+      "It is a full fledged todo application with all features like for creating todos, each todo is having task with time stamps. User can sort todos based upon time.User have authentication and authorization functionality as well.",
     href: "https://navdeep-todo.netlify.app/signup",
     key: "project-2",
   },
