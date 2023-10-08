@@ -1,7 +1,7 @@
 {
   "name": "portfolio2",
   "version": "0.1.0",
-  "homepage": "https://navdeepsingh16-98.github.io/portfolio",
+  "homepage": "https://navdeepsingh16-98.github.io/iNeuronFulllStackJavascriptAssignments/",
   "private": true,
   "dependencies": {
     "@chakra-ui/descendant": "^3.0.11",
