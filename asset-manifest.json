@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/css/main.1d84c71d.css",
-    "main.js": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/js/main.ddbd2167.js",
-    "static/media/mern1.PNG": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/media/mern1.2da2e4cfc3c10f3f62da.PNG",
-    "static/media/mern2.PNG": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/media/mern2.12ede9ae9a6d5f5fefed.PNG",
-    "static/media/Photograph.JPG": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/media/Photograph.2a853d82d29634c6f64a.JPG",
-    "index.html": "/iNeuronFulllStackJavascriptAssignments/portfolio/index.html",
-    "static/media/logo-dk.webp": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/media/logo-dk.c29ef7caaafd8c53f44a.webp",
-    "static/media/logo-wt.webp": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/media/logo-wt.44a92ade0dbab7c74343.webp",
-    "main.1d84c71d.css.map": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/css/main.1d84c71d.css.map",
-    "main.ddbd2167.js.map": "/iNeuronFulllStackJavascriptAssignments/portfolio/static/js/main.ddbd2167.js.map"
+    "main.css": "/portfolio/static/css/main.1d84c71d.css",
+    "main.js": "/portfolio/static/js/main.2da97660.js",
+    "static/media/mern1.PNG": "/portfolio/static/media/mern1.2da2e4cfc3c10f3f62da.PNG",
+    "static/media/mern2.PNG": "/portfolio/static/media/mern2.12ede9ae9a6d5f5fefed.PNG",
+    "static/media/Photograph.JPG": "/portfolio/static/media/Photograph.2a853d82d29634c6f64a.JPG",
+    "index.html": "/portfolio/index.html",
+    "static/media/logo-dk.webp": "/portfolio/static/media/logo-dk.c29ef7caaafd8c53f44a.webp",
+    "static/media/logo-wt.webp": "/portfolio/static/media/logo-wt.44a92ade0dbab7c74343.webp",
+    "main.1d84c71d.css.map": "/portfolio/static/css/main.1d84c71d.css.map",
+    "main.2da97660.js.map": "/portfolio/static/js/main.2da97660.js.map"
   },
   "entrypoints": [
     "static/css/main.1d84c71d.css",
-    "static/js/main.ddbd2167.js"
+    "static/js/main.2da97660.js"
   ]
 }
