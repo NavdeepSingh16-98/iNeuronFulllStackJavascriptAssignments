@@ -10,7 +10,7 @@
 
 > You can check my [LinkedIn Profile](https://www.linkedin.com/in/navdeep-singh-a9112313b/) 
 
-> [my portfolio](https://navdeep-portfolio.netlify.app/) and [my Blogs](https://navdeep167.hashnode.dev/)
+> [my portfolio](https://navdeepsingh16-98.github.io/portfolio) and [my Blogs](https://navdeep167.hashnode.dev/)
 
 <br/>
 
@@ -64,7 +64,7 @@
 
 [Git Repo Link](https://github.com/NavdeepSingh16-98/ExpressQ9)
 <br>
-[Live Link](https://navdeep-ecommerce.netlify.app/)
+
 
 <br>
 
@@ -76,7 +76,7 @@
 
 [Git Repo Link](https://github.com/NavdeepSingh16-98/TodoAppFull)
 <br>
-[Live Link](https://navdeep-todo.netlify.app/signup)
+
 
 <br>
 
@@ -88,7 +88,7 @@
 
 [Git Repo Link](https://github.com/NavdeepSingh16-98/iNeuronFulllStackJavascriptAssignments/tree/user-crud)
 <br>
-[Live Link](https://navdeep-user-crud.netlify.app/)
+
 
 <br> -->
 
